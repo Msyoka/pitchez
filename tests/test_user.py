@@ -10,7 +10,7 @@ class TestUser(unittest):
         
     def test_check_instance_variables(self):
         self.assertEquals(self.new_Christine.id, 5)
-        self.assertEquals(self.new_Christine.username. 'Christine')
+        self.assertEquals(self.new_Christine.username, 'Christine')
         self.assertEquals(self.new_Christine.title, 'Wonderful')
         self.assertEquals(self.new_Christine.bio, '"I am a web designer')
         self.assertEquals(self.new_Christine.posted, '2019-05-27 14:15:43.587649')
